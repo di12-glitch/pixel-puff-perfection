@@ -16,10 +16,10 @@ export const VideoFeed = () => {
           </Badge>
         </div>
         <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon">
+          <Button variant="outline" size="icon" className="hover:bg-primary/10 hover:border-primary">
             <Download className="w-4 h-4" />
           </Button>
-          <Button variant="ghost" size="icon">
+          <Button variant="outline" size="icon" className="hover:bg-primary/10 hover:border-primary">
             <Maximize2 className="w-4 h-4" />
           </Button>
         </div>
